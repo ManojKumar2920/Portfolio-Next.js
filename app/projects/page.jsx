@@ -11,7 +11,7 @@ export const metadata = {
 const page = () => {
   return (
     <div className=' pl-[20%] pr-[10%] sm:px-10 w-full sm:pb-24'>
-      <div className=' flex sm:flex-col sm:items-center'>
+      <div className=' flex sm:flex-col'>
         <Projects />
         <div className=" flex flex-col gap-8">
           <Songs />

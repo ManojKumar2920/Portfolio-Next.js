@@ -9,11 +9,11 @@ const Latest = () => {
       <div>
         <p className=" font-semibold">Latest Projects</p>
       </div>
-      <div className=" flex flex-wrap items-center gap-8 py-8">
+      <div className=" flex flex-wrap md:flex-col items-center gap-8 py-8">
         {ProjectContent.slice(0, 5).map((project, index) => (
           <Link href={project.link}
             key={index}
-            className="  bg-white border-slate-200 rounded-lg shadow-sm w-[40%] border dark:border-slate-800 dark:bg-gradient-to-b dark:from-gray-900 dark:to-gray-800 odd:-rotate-1 even:rotate-1 hover:rotate-0 transition-transform duration-700 hover:duration-100 ease-in-out p-5"
+            className="  bg-white border-slate-200 rounded-lg shadow-sm w-[45%] md:w-full border dark:border-slate-800 dark:bg-gradient-to-b dark:from-gray-900 dark:to-gray-800 odd:-rotate-1 even:rotate-1 hover:rotate-0 transition-transform duration-700 hover:duration-100 ease-in-out p-5"
           >
             <div className="p-2">
               <Image
