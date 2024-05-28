@@ -23,19 +23,19 @@ const Nav = () => {
         </div>
         <div className="flex flex-col justify-around h-[50%] text-[18px] sm:flex-row sm:w-full sm:h-auto sm:py-8 sm:items-end sm:backdrop-blur-2xl">
           <Link href="/">
-            <Home className={`${getIconColor('/')} hover:text-gray-700 dark:hover:text-gray-300 hover:transition ease-in-out duration-200`} />
+            <Home className={`${getIconColor('/')} `} />
           </Link>
           <Link href="/about">
-            <About className={`${getIconColor('/about')} hover:text-gray-700 dark:hover:text-gray-300 hover:transition ease-in-out duration-200`} />
+            <About className={`${getIconColor('/about')} `} />
           </Link>
           <Link href="/projects">
-            <Projects className={`${getIconColor('/projects')} hover:text-gray-700 dark:hover:text-gray-300 hover:transition ease-in-out duration-200`} />
+            <Projects className={`${getIconColor('/projects')} `} />
           </Link>
           <Link href="https://drive.google.com/file/d/175iLDWchyLqjasjtIkYGFiPTazteyDgm/view?usp=sharing">
-            <Resume className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 hover:transition ease-in-out duration-200" />
+            <Resume className="text-gray-500 " />
           </Link>
           <Link href="mailto:manojkumararumainathan@gmail.com">
-            <Contact className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 hover:transition ease-in-out duration-200" />
+            <Contact className="text-gray-500 " />
           </Link>
         </div>
       </div>
