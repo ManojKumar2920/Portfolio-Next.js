@@ -13,7 +13,7 @@ const Nav = () => {
     <div>
       <div className="flex flex-col justify-center items-center gap-14 w-[15%] h-screen border-r border-gray-300 dark:border-gray-800 sm:justify-around sm:items-end sm:w-full sm:flex-row sm:gap-0 sm:h-auto sm:bottom-0 fixed z-10">
         <div className=" ">
-            <Image src={Mano} width={40} height={40} className=" rounded-full sm:hidden"></Image>
+            <Image src={Mano} alt="Mano" width={40} height={40} className=" rounded-full sm:hidden"></Image>
         </div>
         <div className=" flex flex-col justify-around h-[50%] text-[18px] text-gray-500 sm:flex-row sm:w-full sm:h-auto sm:py-8 sm:items-end sm:backdrop-blur-2xl" >
           <Link href={"/"}>

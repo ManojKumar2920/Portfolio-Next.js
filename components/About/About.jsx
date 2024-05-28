@@ -11,7 +11,7 @@ const About = () => {
           <span className="text-purple-heart-500">Manoj Kumar 🤟</span>
         </h1>
 
-        <Image src={Mano} width={500} height={500}></Image>
+        <Image src={Mano} alt="Mano" width={500} height={500}></Image>
       </div>
       <div>
         <h1 className=" font-bold text-[18px] pt-4">Short Bio</h1>

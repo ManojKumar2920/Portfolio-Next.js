@@ -11,6 +11,7 @@ const TopNav = () => {
         <div className=" hidden sm:block">
           <Image
             src={Mano}
+            alt="Mano"
             width={40}
             height={40}
             className=" rounded-full"

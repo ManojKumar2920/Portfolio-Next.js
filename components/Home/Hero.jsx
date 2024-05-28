@@ -12,7 +12,7 @@ const Hero = () => {
     <div>
       <div>
         <div>
-          <Image src={Banner} width={500} className=" rounded-3xl"></Image>
+          <Image src={Banner} alt="Banner" width={500} className=" rounded-3xl"></Image>
         </div>
         <div className=" py-8">
             <p className=" font-semibold">Hey, I'm <span className=" text-purple-heart-600">Manoj Kumar</span></p>
