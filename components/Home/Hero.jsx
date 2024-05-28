@@ -15,7 +15,7 @@ const Hero = () => {
           <Image src={Banner} alt="Banner" width={500} className=" rounded-3xl"></Image>
         </div>
         <div className=" py-8">
-            <p className=" font-semibold">Hey, I'm <span className=" text-purple-heart-600">Manoj Kumar</span></p>
+            <p className=" font-semibold">Hey, I&apos;m <span className=" text-purple-heart-600">Manoj Kumar</span></p>
             <h1 className=" text-3xl sm:text-2xl font-bold py-2">I Develop <span className=" text-green-600 bg-purple-heart-50 dark:bg-gray-800">full-stack</span> digital marvels that captivate hearts and propel businesses to new <span className=" text-pink-500">heights!</span></h1>
             <p className=" text-gray-500">A Passionate Software Engineer from Tamilnadu, India</p>
         </div>
