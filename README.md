@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Portfolio
+This repository serves as a template for creating a personal portfolio to showcase your projects, skills, and experiences. It is designed to help you present your work in a professional manner and can be used as a part of your resume or professional online presence.
 
-## Getting Started
+## About
 
-First, run the development server:
+This portfolio template includes sections for various projects, skills, technologies, and other relevant information that highlights your expertise and accomplishments. You can customize this template to fit your individual needs and style.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Usage
+
+You are welcome to use this template to create your own portfolio. Follow these steps to get started:
+
+1. **Fork this repository**: Create your own copy of this repository by forking it.
+2. **Clone the repository**: Clone the forked repository to your local machine.
+   ```sh
+   git clone https://github.com/yourusername/portfolio-template.git
+   cd portfolio-template
+   ```
+3. **Customize:** Modify the content to reflect your own projects, skills, and experiences. Update the `README.md` file, add your project files, and make any other necessary changes.
+4. **Deploy:** Host your portfolio on a platform of your choice (recommended - Vercel).
+
+## Credits
+
+If you use this template, please give credit by linking back to the original repository. You can include the following in your `README.md` file:
+
+```markdown
+This portfolio was created using a template from [Next.js Portfolio Template by Mano](https://github.com/ManojKumar2920/Portfolio-Next.js).
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## License
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This repository is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). You are free to use, modify, and distribute the code, but you must provide appropriate credit to the original author.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contact
 
-## Learn More
+For inquiries or suggestions, please don't hesitate to reach out:
 
-To learn more about Next.js, take a look at the following resources:
+- **Email:** manojkumararumainathan@gmail.com
+- **LinkedIn:** [manojkumar20](https://www.linkedin.com/in/manojkumar20/)
+- **Portfolio Website:** [manojkumar.one](https://manojkumar.one)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Thank you for considering this portfolio template for your professional endeavors!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
