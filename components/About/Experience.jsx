@@ -11,15 +11,11 @@ const Experience = () => {
           {ExperienceContent.map((experience, index) => (
             <div
               key={index}
-              className=" flex justify-around gap-8 sm:justify-center h-auto w-full sm:w-full  items-start py-4"
+              className=" flex justify-around gap-8 sm:justify-center h-auto w-full sm:w-full  items-start py-4 relative group"
               
             >
-              <div className={`flex items-start  before:absolute before:left-[20%] sm:before:left-8 before:h-[30%] before:w-px before:bg-slate-200 before:dark:bg-slate-800 before:self-start before:ml-[28px] before:-translate-x-1/2 before:translate-y-10 ${
-                    index === ExperienceContent.length - 1
-                      ? "before:h-[1%] before:translate-y-10"
-                      : ""
-                  }`}>
-                <div className=" absolute left-[20%] sm:left-8 h-14 w-14 flex items-center justify-center border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 bg-white dark:bg-slate-900 rounded-full">
+              <div className='flex items-start before:absolute before:left-0 before:h-full before:w-px before:bg-slate-200 before:dark:bg-slate-800 before:self-start before:ml-[28px] before:-translate-x-1/2 before:translate-y-8 before:group-last-of-type:hidden'>
+                <div className=" absolute left-0 h-14 w-14 flex items-center justify-center border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 bg-white dark:bg-slate-900 rounded-full">
                   <Image
                     src={experience.image}
                     alt=""
