@@ -7,7 +7,7 @@ import { Tilt } from "@jdion/tilt-react";
 
 const Projects = () => {
   return (
-    <div className=" w-[70%] md:w-full">
+    <div className=" w-[70%] md:w-full ">
       <div>
         <h1 className=" font-semibold text-3xl">
           See my peice of works here..!
@@ -28,7 +28,7 @@ const Projects = () => {
                   className=" rounded-full border-gray-200 dark:border-gray-800"
                 ></Image>
                 <h2 className="text-md font-bold mb-2 py-2">{project.title}</h2>
-                <p className=" text-[12px] text-gray-500">
+                <p className=" text-[12px] text-gray-500 ">
                   {project.description}
                 </p>
                 <div className=" pt-2 text-purple-heart-500 pl-[90%]">

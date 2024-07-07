@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        fira: ['"Fira Code"', 'monospace'],
+      },
       screens: {
         'sm': {'max': '639px'},
         'md': {'max': '767px'},

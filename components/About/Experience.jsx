@@ -11,7 +11,7 @@ const Experience = () => {
           {ExperienceContent.map((experience, index) => (
             <div
               key={index}
-              className=" flex justify-around gap-8 sm:justify-center h-auto w-full sm:w-full  items-start py-4 relative group"
+              className=" flex justify-around gap-6 sm:justify-center h-auto w-full items-start md:gap-14 py-4 relative group "
               
             >
               <div className='flex items-start before:absolute before:left-0 before:h-full before:w-px before:bg-slate-200 before:dark:bg-slate-800 before:self-start before:ml-[28px] before:-translate-x-1/2 before:translate-y-8 before:group-last-of-type:hidden'>
@@ -30,8 +30,8 @@ const Experience = () => {
                   {experience.duration}
                 </p>
                 <h1 className=" font-bold text-base">{experience.title}</h1>
-                <p className=" font-medium text-sm">{experience.company}</p>
-                <p className=" text-[12px] text-gray-500">
+                <p className=" font-medium text-sm ">{experience.company}</p>
+                <p className=" text-[12px] text-gray-500 ">
                   {experience.description}
                 </p>
               </div>

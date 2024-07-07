@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Songs = () => {
   return (
-    <div className='relative w-[280px] h-[150px] sm:w-auto md:w-auto odd:-rotate-1 even:-rotate-1 mt-10'>
+    <div className='relative w-[280px] h-[150px] sm:w-auto md:w-auto odd:-rotate-1 even:-rotate-1 mt-10 '>
       <div 
         className='absolute inset-0 bg-cover bg-center rounded-2xl shadow-lg p-4' 
         style={{ backgroundImage: `url(${SongsImg.src})` }}
