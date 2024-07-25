@@ -6,6 +6,10 @@ import React from 'react'
 
 export const metadata = {
   title: 'Projects',
+  description: "Let's check out the cool stuff I have made that helps people and businesses. Explore innovative AI applications, automated solutions, and responsive websites that deliver real-world value and drive success.",
+  keywords: ["manoj kumar", "manojkumar", "software engineer", "manoj kumar software engineer", "manojkumar software engineer", "swe", "frontend developer", "gdsc lead", "coderscave", "full stack developer"],
+  url: "/projects",
+  image: "/meta.jpg",
 };
 
 const page = () => {

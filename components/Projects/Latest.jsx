@@ -22,7 +22,7 @@ const Latest = () => {
                 <Image
                   src={project.imageSrc}
                   alt={project.title}
-                  width={30}
+                  width={50}
                   className=" rounded-full border-gray-200 dark:border-gray-800"
                 ></Image>
                 <h2 className="text-md font-bold mb-2 py-2">{project.title}</h2>

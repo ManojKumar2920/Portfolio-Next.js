@@ -11,7 +11,10 @@ export const metadata = {
     template: '%s - Manoj',
     default: 'Manoj Kumar',
   },
-  description: "A Passionate Software Engineer from Tamilnadu, India",
+  description: "I'm a Software Engineer and Data Enthusiast based in Tamilnadu, India. I'm passionate about building impactful and innovative tech solutions and leveraging data to drive impactful solutions and making a difference through innovative tech.",
+  keywords: ["manoj kumar", "manojkumar", "software engineer", "manoj kumar software engineer", "manojkumar software engineer", "swe", "frontend developer", "gdsc lead", "coderscave", "full stack developer"],
+  url: "/",
+  image: "/meta.jpg",
 };
 
 export default function RootLayout({ children }) {

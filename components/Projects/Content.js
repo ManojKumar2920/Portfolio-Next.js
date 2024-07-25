@@ -1,4 +1,5 @@
 import KairosAI from '@/assets/kairos.jpeg';
+import MagicWrite from '@/assets/magicwrite.png';
 import Jarvis from '@/assets/jarvis.png';
 import NoteShare from '@/assets/noteshare.jpg';
 import OpenHire from '@/assets/openhire.png';
@@ -10,6 +11,13 @@ import Regex from '@/assets/regex.png';
 import { IoMdArrowRoundForward as Arrow } from "react-icons/io";
 
 const ProjectContent = [
+    {
+        imageSrc :MagicWrite,
+        title : 'MagicWrite',
+        description : 'MagicWrite is a powerful AI-driven tool designed to assist users in paraphrasing text quickly and effectively. MagicWrite leverages cutting-edge AI technology to provide unique and plagiarism-free content.',
+        icon: <Arrow />,
+        link: 'https://github.com/ManojKumar2920/MagicWrite'
+    },
     {
         imageSrc :KairosAI,
         title : 'Kairos AI',
@@ -32,9 +40,9 @@ const ProjectContent = [
         link: 'https://github.com/ManojKumar2920/Notes-Sharing-Django-Web-Application'
     },
     {
-        imageSrc :OpenHire,
-        title : 'OpenHire',
-        description : 'OpenHire, an innovative open-source Recruitement Management System (RMS) revolutionizing the recruitment landscape. ',
+        imageSrc :URLshort,
+        title : 'MiniMe',
+        description : 'MiniMe is an open-source URL shortener application built using Next.js. It allows users to easily shorten long URLs and share the shortened versions.',
         icon: <Arrow />,
         link: 'https://next-gen-rms.vercel.app/'
     },
@@ -53,11 +61,11 @@ const ProjectContent = [
         link: 'https://github.com/ManojKumar2920/infest2k24'
     },
     {
-        imageSrc :URLshort,
-        title : 'URL Shortner',
-        description : 'A simple and efficient URL shortener app that transforms long URLs into compact, easy-to-share links. ',
+        imageSrc :OpenHire,
+        title : 'OpenHire',
+        description : 'OpenHire, an innovative open-source Recruitement Management System (RMS) revolutionizing the recruitment landscape. ',
         icon: <Arrow />,
-        link: 'https://github.com/ManojKumar2920/Innomatics-Research-Labs-Data-Science-Intern/tree/main/Project%207'
+        link: 'https://next-gen-rms.vercel.app/'
     },
     {
         imageSrc :NotesTaker,

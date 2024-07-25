@@ -7,6 +7,10 @@ import React from "react";
 
 export const metadata = {
   title: 'About',
+  description:'Explore the journey and achievements of Manoj Kumar, a dedicated software engineer from Coimbatore. Discover his expertise in frontend development, AI applications, and automation, along with his contributions to the tech community and innovative projects that drive real-world impact.',
+  keywords: ["manoj kumar", "manojkumar", "software engineer", "manoj kumar software engineer", "manojkumar software engineer", "swe", "frontend developer", "gdsc lead", "coderscave", "full stack developer"],
+  url: "/about",
+  image: "/meta.jpg",
 };
 
 const page = () => {
