@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Mano from "@/assets/Mano.jpg";
+import Mano from "@/assets/Mano_GDG.jpg";
 
 const About = () => {
   return (

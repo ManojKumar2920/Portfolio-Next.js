@@ -7,23 +7,31 @@ import CodersCave from '@/assets/coderscave.jpg';
 import Infest from '@/assets/infest.jpg';
 import URLshort from '@/assets/urlshort.png';
 import NotesTaker from '@/assets/notestaker.png';
-import Regex from '@/assets/regex.png';
+import Vols from '@/assets/vols.webp';
+import Prime from '@/assets/prime-logo.png';
 import { IoMdArrowRoundForward as Arrow } from "react-icons/io";
 
 const ProjectContent = [
     {
+        imageSrc: Prime,
+        title : 'Voting Platform (Amazon Prime)',
+        description : 'Developed a high-traffic fan voting web app for Panchayat Season 4, enabling users to vote between Team Kranti and Team Manju. Engineered for massive scale, handling over 15 million requests and 2+ lakh concurrent users, with 6 million votes recorded in just 4 days.',
+        icon: <Arrow />,
+        link: 'https://vols.noricai.com/'
+    },
+    {
+        imageSrc: Vols,
+        title : 'Vols - New era of Data Platform',
+        description : 'Architected a large-scale data provisioning platform (Vols AI) with Next.js and TypeScript, improving data processing efficiency by 30% and reducing server response times by 15 milliseconds on average. Built with robust workflows for dataset upload, automated review, admin approval, and marketplace integration.',
+        icon: <Arrow />,
+        link: 'https://vols.noricai.com/'
+    },
+    {
         imageSrc :MagicWrite,
-        title : 'MagicWrite',
+        title : 'MagicWrite - Paraphrasing Tool',
         description : 'MagicWrite is a powerful AI-driven tool designed to assist users in paraphrasing text quickly and effectively. MagicWrite leverages cutting-edge AI technology to provide unique and plagiarism-free content.',
         icon: <Arrow />,
         link: 'https://github.com/ManojKumar2920/MagicWrite'
-    },
-    {
-        imageSrc :KairosAI,
-        title : 'Kairos AI',
-        description : 'Kairos AI, an open-source AI chatbot designed to assist with programming-related questions and problems. Kairos AI leverages the powerful Gemini model for a seamless user experience.',
-        icon: <Arrow />,
-        link: 'https://github.com/ManojKumar2920/Kairos-Chat'
     },
     {
         imageSrc :Jarvis,
@@ -31,6 +39,13 @@ const ProjectContent = [
         description : 'A Python-based voice-activated assistant, featuring speech recognition and integration with Spotify for tasks like fetching date/time, web searches, and playing music.',
         icon: <Arrow />,
         link: 'https://github.com/ManojKumar2920/Jarvis'
+    },
+    {
+        imageSrc :KairosAI,
+        title : 'Kairos AI - Coding Assistant',
+        description : 'Kairos AI, an open-source AI chatbot designed to assist with programming-related questions and problems. Kairos AI leverages the powerful Gemini model for a seamless user experience.',
+        icon: <Arrow />,
+        link: 'https://github.com/ManojKumar2920/Kairos-Chat'
     },
     {
         imageSrc :NoteShare,
@@ -44,28 +59,7 @@ const ProjectContent = [
         title : 'MiniMe',
         description : 'MiniMe is an open-source URL shortener application built using Next.js. It allows users to easily shorten long URLs and share the shortened versions.',
         icon: <Arrow />,
-        link: 'https://next-gen-rms.vercel.app/'
-    },
-    {
-        imageSrc :CodersCave,
-        title : 'CodersCave',
-        description : 'A dynamic startup offering web development, design, logo creation, and data analytics services, while also providing immersive virtual internship programs for students. ',
-        icon: <Arrow />,
-        link: 'https://coderscave.in'
-    },
-    {
-        imageSrc :Infest,
-        title : 'Infest2K24',
-        description : 'As the pioneering digital platform for our symposium, INFEST2K24 not only elevated visibility but also set a new standard for future editions.',
-        icon: <Arrow />,
-        link: 'https://github.com/ManojKumar2920/infest2k24'
-    },
-    {
-        imageSrc :OpenHire,
-        title : 'OpenHire',
-        description : 'OpenHire, an innovative open-source Recruitement Management System (RMS) revolutionizing the recruitment landscape. ',
-        icon: <Arrow />,
-        link: 'https://next-gen-rms.vercel.app/'
+        link: 'https://mini-me-url-shortner.vercel.app/'
     },
     {
         imageSrc :NotesTaker,
@@ -74,14 +68,6 @@ const ProjectContent = [
         icon: <Arrow />,
         link: 'https://github.com/ManojKumar2920/Automated-Notes-Maker'
     },
-    {
-        imageSrc :Regex,
-        title : 'Regex App',
-        description : 'An intuitive and powerful app designed to help you create, test, and debug regular expressions effortlessly.',
-        icon: <Arrow />,
-        link: 'https://github.com/ManojKumar2920/Regex-Clone/tree/main/Regex101%20Clone%20App'
-    },
-
 ]
 
 export default ProjectContent;

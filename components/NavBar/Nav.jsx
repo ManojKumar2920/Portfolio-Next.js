@@ -31,10 +31,10 @@ const Nav = () => {
           <Link href="/projects">
             <Projects className={`${getIconColor('/projects')} `} />
           </Link>
-          <Link href="https://drive.google.com/file/d/175iLDWchyLqjasjtIkYGFiPTazteyDgm/view?usp=sharing">
+          <Link target="_blank" href="https://drive.google.com/file/d/1gZ2hI6mx0ilXc_iTdL35C8D8ayIVlbHa/view?usp=drive_link">
             <Resume className="text-gray-500 " />
           </Link>
-          <Link href="mailto:manojkumararumainathan@gmail.com">
+          <Link href="https://cal.com/manojkumar20/ship-now">
             <Contact className="text-gray-500 " />
           </Link>
         </div>

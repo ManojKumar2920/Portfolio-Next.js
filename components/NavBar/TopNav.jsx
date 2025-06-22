@@ -22,7 +22,7 @@ const TopNav = () => {
             <ThemeSwitch />
           </div>
           <div className=" bg-gradient-to-r from-purple-heart-300 to-purple-heart-600 rounded-full py-1 px-6 font-semibold hover:from-purple-heart-400 hover:to-purple-700">
-            <Link href={"https://www.linkedin.com/in/manojkumar20/"}>Hire Me</Link>
+            <Link href={"https://cal.com/manojkumar20/ship-now"}>Book a Call</Link>
           </div>
         </div>
       </div>
