@@ -50,7 +50,7 @@ const CLICopyComponent = () => {
                     <div className="text-green-400 mb-2">Software Engineer, India</div>
                     <div className="text-yellow-400 mb-4">Building the future, one line at a time</div>
                     <div className="text-gray-300">
-                        I'm Mano — a Software Engineer focused on building end-to-end full-stack applications and<br />
+                        I&apos;m Mano — a Software Engineer focused on building end-to-end full-stack applications and<br />
                         AI-powered solutions that actually make a difference.
                     </div>
                 </div>
